@@ -11,7 +11,7 @@ Gatsby Configuration can be a pain, especially for the less technical. Gatsby Th
 We'll try with a simple example:
 
 ```bash
-npm i gatsby-theme-tyra
+npm i gatsby-theme-amsterdam
 ```
 
 Add it as a plugin inside `gatsby-config.js`. If there are no options to pass, it is a simple string:
