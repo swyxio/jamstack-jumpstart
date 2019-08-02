@@ -2,7 +2,7 @@
 
 ## Plugins on Steroids
 
-Configuration is a pain. We'll try some gatsby themes and see how simple it is.
+Configuration is a pain. Gatsby Themes solve this by abstracting configuration into a package you can npm install. We'll try some gatsby themes and see how simple it is.
 
 ## Demo
 

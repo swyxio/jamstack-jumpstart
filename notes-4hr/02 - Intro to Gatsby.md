@@ -68,8 +68,6 @@ Now you can see your pages at `localhost:8000`.
 
 Gatsby doesn't have a prescribed way of creating layouts like Next.js has `_app.js` and `_document.js`. It's just regular ol' React components on a page.
 
-While Gatsby _does_ have the concept of themes currently in testing, it is nothing extra past what we learn today. Just the ability to take everything we learn today and put it into a re-usable, composable package.
-
 Let's go ahead and make a `components/layout.js` component.
 
 > Tip: Unlike `src/pages`, `src/components` isn't a "magic directory". You can name it whatever you like.
@@ -79,7 +77,7 @@ At it's simplest it looks like this:
 ```js
 // src/components/layout.js
 
-import React from "react"
+import React from 'react'
 
 export default function Layout({ children }) {
   return (
@@ -96,7 +94,7 @@ Now import that component into your pages and wrap your pages in it:
 ```js
 // index.js
 
-import Layout from "../components/layout"
+import Layout from '../components/layout'
 // ...
 export default function HomePage() {
   return (
@@ -118,12 +116,12 @@ In the root of your project you have a `gatsby-config.js` file. We will use this
 
 module.exports = {
   siteMetadata: {
-    anything: "I want",
+    anything: 'I want',
     title: `JAMstack Jumpstart`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@swyx`
+    author: `@swyx`,
   },
-  plugins: []
+  plugins: [],
 }
 ```
 
@@ -158,7 +156,7 @@ To perform a query inside a component, first import a few things inside of `Layo
 ```js
 // Layout.js
 
-import { graphql, useStaticQuery } from "gatsby"
+import { graphql, useStaticQuery } from 'gatsby'
 ```
 
 and then inside our component, just before the return, we can run the query:
@@ -194,8 +192,8 @@ Let's make a nav component which we can inject into our layout.js
 ```js
 // layout.js
 
-import React from "react"
-import { Link } from "gatsby"
+import React from 'react'
+import { Link } from 'gatsby'
 
 export default function Nav() {
   return (
@@ -240,11 +238,11 @@ The default Gatsby template provides an `SEO` element you can use, so just go ah
 
 ```js
 // index.js
-import React from "react"
-import { Link } from "gatsby"
+import React from 'react'
+import { Link } from 'gatsby'
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Layout from '../components/layout'
+import SEO from '../components/seo'
 
 const IndexPage = () => (
   <Layout>

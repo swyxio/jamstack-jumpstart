@@ -2,8 +2,8 @@
 
 There are a few things you'll need to get setup for today:
 
-1. A laptop with the latest version of <https://nodejs.org> installed.
-1. A text editor like VS Code
+1. A laptop with the latest version of [Node.js](https://nodejs.org) installed.
+1. An IDE or text editor like VS Code
 1. A terminal
 
 ## What to Expect From Today
