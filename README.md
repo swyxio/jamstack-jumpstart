@@ -6,6 +6,8 @@ Welcome! the Workshop notes are in `/notes` (pick either the 2hr or 4hr version)
 
 In the 2 hour workshop we will start from a blank folder and code from scratch.
 
+Recorded video: https://www.youtube.com/watch?v=PoqWF9BKtOE
+
 ## 4 hour Workshop
 
 The starter site we are going to work with is in `/site`.
